@@ -1,5 +1,5 @@
 
-fetch("shoes.json")
+fetch("./shoes.json")
   .then((response) => response.text())
   .then((json) => (products = JSON.parse(json)))
   .then((products) => {
